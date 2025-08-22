@@ -2,7 +2,7 @@
 
 **Enhancing Manufacturing Performance Through Data-Driven Insights**
 
-
+<img width="1284" height="721" alt="Screenshot 2025-08-20 185832" src="https://github.com/user-attachments/assets/587259ed-08de-4766-8dc3-8ca0ac34ee5e" />
 
 ## 🔍 Project Overview
 
@@ -30,12 +30,28 @@ This project focuses on analyzing **manufacturing production data** and **employ
 
 ## 📂 Datasets
 
-1. **Manufacturing Production Data**
+### 1) Manufacturing Production Data
+Fields:
+- `ProductID`
+- `ProductType`
+- `ProductionDate`
+- `ProductionCost`
+- `CountryOfOrigin`
+- `QuantityProduced`
+- `WarehouseLocation`
 
-   * ProductID, ProductType, ProductionDate, ProductionCost, CountryOfOrigin, QuantityProduced, WarehouseLocation
-2. **Employee Performance Metrics**
+### 2) Employee Performance Metrics
+Fields:
+- `EmployeeID`
+- `Department`
+- `HireDate`
+- `Salary`
+- `CountryOfOperation`
+- `ProductID`
+- `PerformanceRating`
+- `TrainingRecords` *(e.g., hours or count of sessions)*
 
-   * EmployeeID, Department, HireDate, Salary, CountryOfOperation, ProductID, PerformanceRating, Training Records
+> ✅ Ensure `ProductID` is a shared key for modeling production ↔ employee relationships where relevant.
 
 
 
@@ -56,7 +72,7 @@ This project focuses on analyzing **manufacturing production data** and **employ
 * End-to-end **manufacturing efficiency tracking**
 
 
-<img width="1284" height="721" alt="Screenshot 2025-08-20 185832" src="https://github.com/user-attachments/assets/587259ed-08de-4766-8dc3-8ca0ac34ee5e" />
+
 
 
 
